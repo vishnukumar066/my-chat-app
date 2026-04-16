@@ -1,0 +1,155 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production
+build/
+dist/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.iml
+*.launch
+.settings/
+*.sublime-workspace
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+*.log
+logs/
+
+# Package Manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS Generated Files
+Thumbs.db
+.Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Debugging
+debug.log
+npm-debug.log
+npm-debug.log.*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Compiled JavaScript
+*.js.map
+*.json.map
+
+# IDE specific
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Misc
+.cache/
+.eslintcache
+.prettier-ignore
+
+# Local development
+.env.local.js
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MacOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+.directory
+
+# Cloudinary cache
+.cloudinary-cache/
+
+# MongoDB
+data/
+mongodb/
+
+# Vite cache
+.vite/
+
+# Turbo build cache
+.turbo/
+
+# Node modules
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/build/
+
+# IDE cache
+**/.vscode/
+**/.idea/
+
+# Temporary files
+**/*.temp
+**/temp/
+**/tmp/
+
+# OS files
+**/.DS_Store
+**/Thumbs.db
+
+# Test coverage
+**/coverage/
+**/.nyc_output/
+
+# Environment specific
+**/dev.env
+**/test.env
+**/prod.env
