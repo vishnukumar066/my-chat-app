@@ -503,25 +503,4 @@ For issues or questions:
 - Responsive UI design
 - Socket.io integration
 
----
 
-## Quick Start Commands
-
-```bash
-# Starting both servers
-cd backend && npm install && npm start
-# In another terminal
-cd frontend && npm install && npm run dev
-
-# Building for production
-cd frontend && npm run build
-
-# Linting
-cd frontend && npm run lint
-cd backend && npm run lint
-```
-
----
-
-**Last Updated:** April 16, 2026
-**Status:** Production Ready
